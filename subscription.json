@@ -1,0 +1,41 @@
+{
+  "version": "2.1.0",
+  "timestamp": 1733644800,
+  "is_available": true,
+  
+  "page_style": {
+    "video_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+    "button_text": "立即解锁VIP特权",
+    "close_button_delay": 1.5
+  },
+  
+  "packages": [
+    {
+      "display_name": "周卡试用",
+      "price_text": 1,
+      "tech_info": {
+        "iap_product_id": "com.yourapp.subscription.weekly_trial",
+        "price_in_cents": 1,
+        "validity_day": 7
+      }
+    },
+    {
+      "display_name": "月度会员",
+      "price_text": 6800,
+      "tech_info": {
+        "iap_product_id": "com.yourapp.subscription.monthly",
+        "price_in_cents": 6800,
+        "validity_day": 30
+      }
+    },
+    {
+      "display_name": "年度会员",
+      "price_text": 199800,
+      "tech_info": {
+        "iap_product_id": "com.yourapp.subscription.yearly",
+        "price_in_cents": 199800,
+        "validity_day": 365
+      }
+    }
+  ]
+}
