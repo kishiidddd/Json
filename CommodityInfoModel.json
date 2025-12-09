@@ -5,14 +5,14 @@
       "groupType": "defaultGroup",
       "groupName": "标准套餐",
       "protocalCheck": true,
-      "closeButtonDelay": 0.8,
+      "closeButtonDelay": 0.8
     },
     {
       "id": 1,
       "groupType": "defaultGroup",
       "groupName": "标准套餐",
       "protocalCheck": true,
-      "closeButtonDelay": 0.8,
+      "closeButtonDelay": 0.8
     }
   ]
 }
