@@ -2,17 +2,99 @@
   "commodityShelfList": [
     {
       "id": 1,
-      "groupType": "defaultGroup",
-      "groupName": "标准套餐",
+      "groupType": "hot",
+      "groupName": "热销商品",
       "protocalCheck": true,
-      "closeButtonDelay": 0.8
+      "closeButtonDelay": 3.5,
+      "CommodityShelfProductModelList": [
+        {
+          "remarkName": "限时特惠",
+          "discountPriceDesc": "7折优惠",
+          "extroDesc": "仅限今日",
+          "topMark": "HOT",
+          "ProductInfoModel": {
+            "productId": "P001",
+            "unitPrict": 2990,
+            "timeliness": 24,
+            "firstDeduactionTime": 30
+          }
+        },
+        {
+          "remarkName": "新品上市",
+          "discountPriceDesc": "立减50",
+          "extroDesc": "买一送一",
+          "topMark": "NEW",
+          "ProductInfoModel": {
+            "productId": "P002",
+            "unitPrict": 4990,
+            "timeliness": 48,
+            "firstDeduactionTime": 15
+          }
+        }
+      ],
+      "CommodityShelfStyleModelList": [
+        {
+          "styleName": "简约风格",
+          "mainBtnCopywriting": "立即购买",
+          "pageURL": "https://example.com/page1",
+          "closeBtnTransparency": 0.3,
+          "StyleExtroConfigModel": {
+            "name": "简约配置",
+            "bannerId": "BANNER001",
+            "categoryId": "CAT001",
+            "pageUrl": "https://example.com/config1"
+          }
+        },
+        {
+          "styleName": "炫彩风格",
+          "mainBtnCopywriting": "马上抢购",
+          "pageURL": "https://example.com/page2",
+          "closeBtnTransparency": 0.5,
+          "StyleExtroConfigModel": {
+            "name": "炫彩配置",
+            "bannerId": "BANNER002",
+            "categoryId": "CAT002",
+            "pageUrl": "https://example.com/config2"
+          }
+        }
+      ]
     },
     {
-      "id": 1,
-      "groupType": "defaultGroup",
-      "groupName": "标准套餐",
-      "protocalCheck": true,
-      "closeButtonDelay": 0.8
+      "id": 2,
+      "groupType": "recommend",
+      "groupName": "推荐商品",
+      "protocalCheck": false,
+      "closeButtonDelay": 2.0,
+      "CommodityShelfProductModelList": [
+        {
+          "remarkName": "会员专享",
+          "discountPriceDesc": "8折优惠",
+          "extroDesc": "会员专属",
+          "topMark": "VIP",
+          "ProductInfoModel": {
+            "productId": "P003",
+            "unitPrict": 3990,
+            "timeliness": 72,
+            "firstDeduactionTime": 60
+          }
+        }
+      ],
+      "CommodityShelfStyleModelList": [
+        {
+          "styleName": "会员专属风格",
+          "mainBtnCopywriting": "会员专享",
+          "pageURL": "https://example.com/vip",
+          "closeBtnTransparency": 0.2,
+          "StyleExtroConfigModel": {
+            "name": "会员配置",
+            "bannerId": "BANNER003",
+            "categoryId": "CAT003",
+            "pageUrl": "https://example.com/vip-config"
+          }
+        }
+      ]
     }
   ]
 }
+
+
